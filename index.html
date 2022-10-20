@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>A V E</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
@@ -24,11 +24,13 @@
 
                 <div class="register__header">
                     <div class="register__sign">
-                        <a href="#" class="register--header">Register</a>
-                        <a href="#" class="sign--header">Sign in</a>
-                        <div class="basket__header--title">
-                            
+                        <a href="register.html" class="register--header">Register</a>
+                        <a href="signup.html" class="sign--header">Sign in</a>
+                        <div class="basket__header--title"> 
                             <div class="basket__header"><i class="fa-solid fa-basket-shopping"></i>empty<span class="empty--kor"></span></div>
+                            <ul class="dropdown__list-basket">
+                              <li class="dropdown__link-basket">empty</li>
+                            </ul>
                         </div>
                         
                     </div>
@@ -194,24 +196,24 @@
 
       <div class="row positon__top">
         <div class="col-sm">
-          <div class="col__rano">
+          <div class="col__rano positon__top__top">
             <span class="cena__posiomn">$89.99</span>
             <img class="position__img"  src="assets/img/shop/1.jpg" alt="">
             <div class = "shop__hover">
               <h4 class="shop__text">womens burnt orange casual tee 29.95</h4>
               <p class="shop__p">Classic casual t-shirt for women on the move.<br>100% cotton.</p>
-              <i class="fa-solid fa-cart-shopping shop__icon"></i> <i class="fa-regular fa-heart shop__icon"></i>
+              <i data-item="item" class="fa-solid fa-cart-shopping shop__icon"></i> <i class="fa-regular fa-heart shop__icon"></i>
             </div>
           </div>
         </div>
         <div class="col-sm">
-          <div class="col__rano">
+          <div class="col__rano positon__top__top">
             <span class="cena__posiomn">$47.50</span>
             <img class="position__img" src="assets/img/shop/2.jpg" alt="">
             <div class = "shop__hover">
               <h4 class="shop__text">womens burnt orange casual tee 29.95</h4>
               <p class="shop__p">Classic casual t-shirt for women on the move.<br>100% cotton.</p>
-              <i class="fa-solid fa-cart-shopping shop__icon"></i> <i class="fa-regular fa-heart shop__icon"></i>
+              <i data-item="item" class="fa-solid fa-cart-shopping shop__icon"></i> <i class="fa-regular fa-heart shop__icon"></i>
             </div>
           </div>
         </div>
@@ -223,17 +225,17 @@
 
       <div class="row margin__row">
         <div class="col-sm position__of__top">
-          <span class="cena__posiomn">$69.95</span>
-          <img class="position__img" src="assets/img/shop/4.jpg" alt="">
+          <span class="cena__posiomn ">$69.95</span>
+          <img class="position__img img-absolute" src="assets/img/shop/4.jpg" alt="">
         </div>
         <div class="col-sm ">
           <div class="col__rano">
             <span class="cena__posiomn">$47.50</span>
-            <img class="position__img" src="assets/img/shop/5.jpg" alt="">
+            <img class="position__img img-top" src="assets/img/shop/5.jpg" alt="">
             <div class = "shop__hover">
               <h4 class="shop__text">womens burnt orange casual tee 29.95</h4>
               <p class="shop__p">Classic casual t-shirt for women on the move.<br>100% cotton.</p>
-              <i class="fa-solid fa-cart-shopping shop__icon"></i> <i class="fa-regular fa-heart shop__icon"></i>
+              <i data-item="item" class="fa-solid fa-cart-shopping shop__icon"></i> <i class="fa-regular fa-heart shop__icon"></i>
             </div>
           </div>
         </div>
@@ -244,7 +246,7 @@
             <div class = "shop__hover">
               <h4 class="shop__text">womens burnt orange casual tee 29.95</h4>
               <p class="shop__p">Classic casual t-shirt for women on the move.<br>100% cotton.</p>
-              <i class="fa-solid fa-cart-shopping shop__icon"></i> <i class="fa-regular fa-heart shop__icon"></i>
+              <i data-item="item" class="fa-solid fa-cart-shopping shop__icon"></i> <i class="fa-regular fa-heart shop__icon"></i>
             </div>
           </div>
         </div>
@@ -340,8 +342,8 @@
         </div>
         <div class="col__footer">
           <div class="text__footer">Your account</div>
-          <div class="link__foot"><a class="link__footer" href="#">Sign in</a></div>
-          <div class="link__foot"><a class="link__footer" href="#">Register</a></div>
+          <div class="link__foot"><a class="link__footer" href="signup.html">Sign in</a></div>
+          <div class="link__foot"><a class="link__footer" href="register.html">Register</a></div>
           <div class="link__foot"><a class="link__footer" href="#">View cart</a></div>
           <div class="link__foot"><a class="link__footer" href="#">View your lookbook</a></div>
           <div class="link__foot"><a class="link__footer" href="#">Track an order</a></div>
@@ -407,7 +409,7 @@
     </div>
   </div>
 
-
+<script src="assets/js/cart.js"></script>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>

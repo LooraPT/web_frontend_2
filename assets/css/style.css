@@ -7,6 +7,18 @@ body {
 	line-height: 1.6;
 }
 
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+
 *,
 *:before,
 *:after {
@@ -124,8 +136,34 @@ h1, h2, h3, h4, h5, h6 {
 .basket__header--title {
     padding: 10px 15px 10px 40px;
     background-color: #00c8c8;
+    cursor: pointer;
+
+    position: relative;
+}
+.dropdown__list-basket {
+    display: none;
+
+    width: 100%;
+    background-color: #00c8c8;
+    cursor:default;
+
+    
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 1;
+    color: #333;
 }
 
+.basket__header--title._active .dropdown__list-basket {
+    display: block;
+
+    
+}
+
+.dropdown__link-basket {
+    padding-bottom: 10px;
+}
 
 .me-auto2 {
     margin-left: auto!important;
@@ -527,22 +565,131 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 60px;
 }
 
-.center__fashion i {
-    
-}
-
-
 
 .link__social {
     text-decoration: none;
     color: white;
-    padding-right: 40px;
+    margin-right: 40px;
 }
 
 .link__social:last-child {
-    padding-right: 0;
+    margin-right: 0;
 }
 
 .padding--footer {
     padding: 10px 0;
 }
+
+/*signapp*/
+.container__sign {
+    width: 100%;
+    
+    max-width: 600px;
+    
+    margin:0 auto;
+    
+    
+    
+}
+
+.ravno {
+    margin-top: 25vh;
+    background-color: white;
+    box-shadow: 1px 1px 3px black;
+    
+    
+
+}
+
+.sign-in {
+    background-color: #ffffff;
+}
+
+.sighup__text {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-weight: 400;
+}
+
+.center__sign {
+    margin: 0 auto;
+}
+
+.form__sign {
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    
+}
+
+.email {
+    margin-bottom: 40px;
+    width: 550px;
+    height: 38px;
+    border: 1px solid #575153;
+    padding: 5px 10px;
+}
+
+.password {
+    margin-bottom: 30px;
+    width: 550px;
+    height: 38px;
+    border: 1px solid #575153;
+    padding: 5px 10px;
+}
+
+.email:focus {
+    outline: 0;
+	border-color: #bb5465;
+    background-color: #fcf6f7;
+}
+
+.password:focus {
+    outline: 0;
+	border-color: #bb5465;
+    background-color: #fcf6f7;
+}
+
+.email::placeholder {
+    color: #b3b1b1;
+    
+}
+
+.password::placeholder {
+    color: #b3b1b1;
+    
+}
+
+.sign__btn {
+    margin-bottom: 70px;
+    padding: 15px 45px;
+    color: #333;
+    background-color: white;
+    text-transform: uppercase;
+    border: 1px solid #00c8c8;
+}
+
+.sign__btn:hover {
+    background-color: #00c8c8;
+    color: white;
+}
+
+.fargot__pass {
+    text-decoration: none;
+    color: #00c8c8;
+    margin-left: 200px;
+}
+
+.position__of__top {
+    position: relative;
+    bottom: 200px;
+    z-index: 0;
+}
+
+.positon__top__top {
+    position: relative;
+    z-index: 1;
+}
+
