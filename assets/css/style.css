@@ -162,8 +162,37 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .dropdown__link-basket {
+    font-size: 10px;
+    padding-bottom: 10px;
+    
+}
+
+
+.dropdown__link-basket-empty {
     padding-bottom: 10px;
 }
+
+.minus__item {
+    display: block;
+    content: "";
+    width: 20px;
+    height: 4px;
+    background-color: rebeccapurple;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .me-auto2 {
     margin-left: auto!important;
