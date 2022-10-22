@@ -218,6 +218,15 @@ h1, h2, h3, h4, h5, h6 {
     height: 97vh;
     background-size: cover;
 }
+
+.header__brand {
+    background: url('../img/brandIntro.jpg') no-repeat center;
+    background-size: cover;
+    height: 454px;
+    margin: 50px 0px;
+}
+
+
 /* dropdown */
 .flex__dropdown {
     display: flex;
@@ -729,3 +738,112 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 1;
 }
 
+.check_box {
+    margin-bottom: 30px;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.text__check {
+    font-size: 13px;
+    font-weight: 400;
+    color: #827e7f;
+
+    
+}
+
+.checkbox__item {
+    text-align: center;
+    display: flex;
+}
+
+/* The Brand */
+.intro__brand {
+    text-align: center;
+
+}
+
+
+.sup__title__brand {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 166px;
+    padding-bottom: 30px;
+}
+
+.sup__title__brand span {
+    font-weight: 300;
+}
+
+.title__brand {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: white;
+}
+
+.reputaion {
+    display: flex;
+}
+
+.col__rep {
+    flex: 1 1 0;
+}
+
+.img__brand--main {
+    padding-bottom: 60px;
+}
+
+.img__brand--main2 {
+    padding-bottom: 30px;
+}
+
+.value__brand {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #575153;
+    padding-bottom: 15px;
+}
+
+.value__brand--sub {
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase ;
+    color: #a1a1a1;
+    padding-bottom: 10px;
+}
+
+.brand__sub--sub {
+    font-size: 12px;
+    font-weight: 400;
+    color: #777777;
+}
+
+.brand__sub--sub a:hover {
+    color: #00c8c8;
+}
+
+.two--brand {
+    padding-top: 50px;
+}
+
+.col__rep--one {
+    padding-right: 30px;
+}
+
+.img__brand {
+    padding-top: 40px;
+}
+
+.awards__png {
+    padding-top: 70px;
+    display: flex;
+}
+
+.img__flex--col {
+    flex: 1 1 0;
+}
