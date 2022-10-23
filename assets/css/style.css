@@ -847,3 +847,41 @@ h1, h2, h3, h4, h5, h6 {
 .img__flex--col {
     flex: 1 1 0;
 }
+
+/*media*/
+
+@media (max-width: 1830px) {
+    .title__h1 {
+        font-size: 250px;
+    }
+
+    .heder__top {
+        height: 145vh;
+    }
+
+    .title__button {
+        top: 500px;
+        right: 200px;
+    }
+
+    .position__img {
+        width: 420px;
+        height: 500px;
+    }
+
+    .position__of__top {
+        bottom: 0;
+    }
+
+    .lookbook__col {
+        width: 30%;
+    }
+
+    .style__img--people {
+        display: none;
+    }
+
+    .row {
+        flex-wrap:nowrap;
+    }
+}
