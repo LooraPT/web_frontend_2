@@ -847,7 +847,84 @@ h1, h2, h3, h4, h5, h6 {
 .img__flex--col {
     flex: 1 1 0;
 }
+/*local store*/
 
+.localstores__info {
+    display: flex;
+}
+
+.localstore__col {
+    flex: 1 1 0;
+    font-weight: 400;
+    padding-right: 30px;
+}
+.localstore__col:last-child {
+    padding-right: 0px;
+}
+.city__local {
+    font-size: 18px;
+    color: #575153;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+.info__about {
+    color: #c3c2c2;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+.adress__local {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    padding-bottom: 20px;
+}
+
+.btn__localstore a {
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 1px solid #00c8c8;
+    padding: 20px 40px;
+}
+
+.btn__localstore a:hover {
+    background-color: #00c8c8;
+    
+    color: white;
+}
+
+.map__localstore {
+    margin-top: 70px;
+    background-color: #f8f8f8;
+    background-size: auto;
+    display: flex;
+}
+
+.map__gg__lcalstore {
+    display: block;
+    width: 75%;
+}
+
+.info__about__map {
+    
+    width: 25%;
+    padding-top: 40px;
+}
+
+.icons__nav {
+    
+    font-size: 14px;
+}
+.icons__nav i{
+    padding-right: 10px;
+    margin-bottom: 10px;
+    
+}
+.icons__nav a{
+    font-size: 14px;
+    font-weight: 300;
+    color: #9c9a9a;
+}
 /*media*/
 
 @media (max-width: 1830px) {
@@ -882,6 +959,13 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .row {
+        
         flex-wrap:nowrap;
+        
+    }
+    .shop__hover {
+        position: absolute;
+        
+        z-index: 1;
     }
 }
