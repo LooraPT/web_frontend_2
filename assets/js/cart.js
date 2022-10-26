@@ -3,8 +3,6 @@ const basketItems = basket.querySelector('.dropdown__list-basket');
 const shopIcon = document.querySelectorAll('[data-item]');
 const whatUBuy = [];
 
-
-
 if(basket) {
     basket.addEventListener("click", function () {
         basket.classList.toggle('_active')
@@ -17,6 +15,7 @@ shopIcon.forEach((elem) => {
 
         if (!whatUBuy.includes(elem.dataset.item)) {
             whatUBuy.push(elem.dataset.item);
+        
         } else {
             whatUBuy.forEach((i, index) => {
                 if (elem.dataset.item === i) {
@@ -30,7 +29,6 @@ shopIcon.forEach((elem) => {
         
     });
 });
-
 
 function updatecart() {
     let data = '';
@@ -51,6 +49,5 @@ function updatecart() {
     }
     basketItems.innerHTML = data;
     basketItems.insertAdjacentHTML("beforeend", `<li class="dropdown__link-basket"><span class="minus__item"></span>Sum: ${sum}</li>`)
-    console.log(sum)
-    
+    console.log(sum)   
 }
